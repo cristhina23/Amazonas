@@ -6,20 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-header {
-  background-color: #404040;
-  padding: 1rem;
-}
-header a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
+
 .site-container {
   min-height: 100vh;
 }
 main {
   flex: 1;
+ 
+}
+.rating span {
+  color: #ffc000;
 }
 .btn-primary,
 .btn-outline-primary {
@@ -41,4 +37,10 @@ main {
 }
 .product-info {
   padding: 1rem;
+}
+.img-thumbnail {
+  height: 80px !important;
+}
+.small-container {
+  max-width: 600px !important;
 }
